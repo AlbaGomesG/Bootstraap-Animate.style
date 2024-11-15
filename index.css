@@ -8,13 +8,25 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    height: 50rem;
-    padding: 20px;
 }
 
 .container{
     display: flex;
+    flex-direction: column;
+}
+
+.container-1{
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.container-2{
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
